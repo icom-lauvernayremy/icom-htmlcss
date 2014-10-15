@@ -61,15 +61,54 @@ header {
 	width : 960px ;
 }
 
-#logo {
-	width : 200px;
+.clear {
+	clear : both;
 }
 
-#nav ul li {
+#wrapper #header {
+	position : relative ;
+	margin : 0px auto 100px ;
+	width : 960px;
+	height : 100px;
+}
+
+#wrapper #header #logo {
+	position : absolute;
+	width : 200px;
+	float: left;
+}
+.img-responsive {
+	width : 100%;
+	height : auto;
+	margin:0px auto;
+}
+
+#wrapper #header #menu {
+	float : right;
+	margin : 0px auto ;
+	width : 720px;
+}
+
+#wrapper #header #menu ul {
+	display : inline;
+	margin : 10px 0px 0px ;
+}
+
+#wrapper #header #menu ul li{
+	position : relative;
+	margin : 20% 10px;
+}
+
+#wrapper #header #menu ul li a {
 	display : block;
 	float :left;
-	width : 200px;
 	text-align : left;
+	padding : 10px 10px 20px;
+	margin : 0px 5px;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 9px;
+	font-weight : bold;
+	color: #333333;
 	text-transform : uppercase;
 }
 
@@ -79,5 +118,107 @@ a {
 }
 
 span {
+	color : grey;
 	text-transform : none;
+	font-weight: 0;
+}
+
+/* Content */
+
+#wrapper #content #slider {
+	
+	width : 960px;
+}
+
+.slider-responsive {
+	width : 100%;
+	height : auto ;
+	margin : 0px auto ;
+}
+
+#wrapper #container {
+	margin : 0px auto 100px ;
+	width : 960px;
+	height : 100px;
+}
+
+#wrapper #container #content-left{
+	background-color : #fcfcfc ;	
+}
+
+#wrapper #container #content-right{
+	background-color : #fcfcfc ;	
+}
+
+.col{
+	width:33.333332%;
+	float:left;
+}
+
+.col .block{
+	padding:10px 20px;
+}
+.col .attribute-header{
+	padding:10px 0px;
+}
+.col h2 {
+	color : grey ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 20px;
+	padding:0px 10px;
+	border-left:4px solid #3e7dbd;
+
+}
+
+.col h3 {
+	color : #3e7dbd ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.col .date-col-left {
+	color : green ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 9px;
+	font-weight : bold;
+}
+
+.col .date-col-mid {
+	color : grey ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 9px;
+}
+
+.col .time {
+	margin-left : 10%;
+	color : grey ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 9px;
+	font-weight : bold;
+}
+
+.col .more {
+	color : #3e7dbd ;
+	text-transform : uppercase;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 9px;
+}
+
+.col p {
+	color : grey ;
+	font-family: helvetica, arial, sans-serif;
+	font-size : 10px;
+	padding : 10px 0 0 0;
+}
+
+.button {
+	background-color: #3e7dbd ;
+	margin : 30px;
+	padding : 5px;
 }
