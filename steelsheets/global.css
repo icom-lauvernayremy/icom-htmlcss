@@ -52,13 +52,13 @@ table {
 /* CSS */
 /* Header */
 body {
-	width : 960px ;
-	margin : 0 auto ;
-	position : relative ;
+	max-width : 960px;
+	margin : 0 auto;
+	position : relative;
 }
 
 header {
-	width : 960px ;
+
 }
 
 .clear {
@@ -68,13 +68,13 @@ header {
 #wrapper #header {
 	position : relative ;
 	margin : 0px auto 100px ;
-	width : 960px;
+
 	height : 100px;
 }
 
 #wrapper #header #logo {
-	position : absolute;
-	width : 200px;
+	/*position : absolute;*/
+	/*width : 200px;*/
 	float: left;
 }
 .img-responsive {
@@ -85,8 +85,8 @@ header {
 
 #wrapper #header #menu {
 	float : right;
-	margin : 0px auto ;
-	width : 720px;
+	margin : auto ;
+	/*width : 720px;*/
 }
 
 #wrapper #header #menu ul {
@@ -96,7 +96,7 @@ header {
 
 #wrapper #header #menu ul li{
 	position : relative;
-	margin : 20% 10px;
+	margin : 20px 10px;
 }
 
 #wrapper #header #menu ul li a {
@@ -126,8 +126,7 @@ span {
 /* Content */
 
 #wrapper #content #slider {
-	
-	width : 960px;
+
 }
 
 .slider-responsive {
@@ -138,7 +137,7 @@ span {
 
 #wrapper #container {
 	margin : 0px auto 100px ;
-	width : 960px;
+	/*width : 960px;*/
 	height : 100px;
 }
 
